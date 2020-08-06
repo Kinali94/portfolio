@@ -2314,9 +2314,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .testimonial-area.section-gap {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
+.testimonial-area.section-gap.gap{
+  padding: 120px 0;
+}
 .alert-msg {
   color: #008000;
 }
@@ -2463,6 +2468,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-left h1 {
     font-size: 30px;
   }
+  .contact-page-area .form-area textarea{
+    width:100% !important;
+    padding:15px;
+    margin:0 15px;
+  }
 }
 
 .banner-left .primary-btn:hover {
@@ -2473,8 +2483,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-left {
     margin-top: 100px !important;
   }
+  
+  .submit-btn{
+    padding-right: auto !important;
+    margin-right: auto !important;
+  }
 }
-
+.submit-btn{
+  padding-right: 0px;
+}
 .banner-right {
   text-align: center;
 }
@@ -2747,7 +2764,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.testimonial-area .lnr-arrow-up, .testimonial-area .lnr-arrow-down {
+.testimonial-area .lnr-arrow-up, .testimonial-area .lnr-arrow-down,
+.testimonial-area .lnr-arrow-left, .testimonial-area .lnr-arrow-right {
   background-color: white;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
   padding: 14px;
@@ -4502,6 +4520,9 @@ dl.accordion.time-line:before {
 .card{
   width:33.33%;
 }
+.card-text{
+  text-align: justify;
+}
 .txt-center {
   text-align: center;
 }
@@ -5016,4 +5037,7 @@ dl.accordion.time-line:before {
 }
 .single-testimonial p{
   text-align: justify;
+}
+.contact-height{
+  height: calc(100vh - 315px);
 }
