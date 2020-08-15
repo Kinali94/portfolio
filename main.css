@@ -93,7 +93,8 @@ $black			: #222;
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif" !important;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -160,7 +161,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -172,7 +173,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
   font-weight: 600;
   color: #222222;
 }
@@ -2147,7 +2148,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #222;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
@@ -2348,7 +2349,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   color: #fff;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2478,20 +2479,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-left .primary-btn:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
-
+.submit-btn{
+  padding-right: 0px !important;
+}
 @media (max-width: 767px) {
   .banner-left {
     margin-top: 100px !important;
   }
   
   .submit-btn{
-    padding-right: auto !important;
-    margin-right: auto !important;
+    padding-right: 15px !important;
   }
 }
-.submit-btn{
-  padding-right: 0px;
-}
+
 .banner-right {
   text-align: center;
 }
@@ -2812,6 +2812,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-testimonial:hover h4 {
   color: #8490ff;
   cursor: pointer;
+}
+.single-testimonial h5{
+  font-weight: bold ;
 }
 
 /*--------- end testimonial area  -------------*/
@@ -4319,9 +4322,11 @@ dl.accordion.time-line:before {
 }
 
 .contact-page-area .address-wrap .single-contact-address h5 {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 16px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
+  vertical-align: middle;
+  display: inline;
 }
 
 .contact-page-area .address-wrap .single-contact-address .lnr {
@@ -4544,7 +4549,7 @@ dl.accordion.time-line:before {
 .resumeBackgroundColor h3 {
   margin-bottom: 5%;
   font-size: 30px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -4577,7 +4582,7 @@ dl.accordion.time-line:before {
     text-align: center;
     padding-bottom: 10%;
     font-size: 30px;
-    font-family: "Josefin Sans", sans-serif !important;
+    font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
     font-weight: 500;
     opacity: .8;
 
@@ -4600,7 +4605,7 @@ dl.accordion.time-line:before {
 
 .skillsCard li {
   font-size: 20px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
   width: calc(33% - 20px);
   display: flex;
   -webkit-box-orient: vertical;
@@ -4616,6 +4621,7 @@ dl.accordion.time-line:before {
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   padding: 5%;
   transition: all 0.2s linear 0s;
+  color:#212548!important;
 }
 .skillsCard i {
   font-size: 75px;
@@ -4626,6 +4632,7 @@ dl.accordion.time-line:before {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
 
@@ -4637,6 +4644,7 @@ dl.accordion.time-line:before {
   }
   .contact-h5{
     text-align: center;
+    font-weight: 700;
 
   }
   .contact-page-area .row{
@@ -4680,9 +4688,9 @@ dl.accordion.time-line:before {
     right: 70px;
 }
 .page-title .page-subtitle h4 {
-  color: #aaaaaa;
+  /* color: #aaaaaa; */
   font-size: 14px;
-  font-family: Poppins, Helvetica, sans-serif;
+  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
   font-weight: 300;
   font-style: normal;
   letter-spacing: 0px;
@@ -4732,6 +4740,7 @@ dl.accordion.time-line:before {
   margin: 0 0 30px;
   z-index: 1;
   padding-bottom: 7px;
+  font-weight: 600;
 }
 .block-title h2:before, h3.comment-reply-title:before {
   display: block;
@@ -4776,10 +4785,10 @@ dl.accordion.time-line:before {
 .timeline-item h5.item-period {
   display: inline-block;
   position: relative;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin: 0 0 5px -40px;
-  color: #666;
+  /* color: #666; */
   background-color: #fff;
   padding: 0 10px;
   line-height: 23px;
@@ -4789,17 +4798,18 @@ dl.accordion.time-line:before {
 }
 .timeline-item .item-company {
   display: inline-block;
-  font-size: 12px;
-  color: #666;
-  opacity: .7;
+  font-size: 14px;
+  /* color: #666; */
+  /* opacity: .7; */
   margin-left: 5px;
 }
 .timeline-item .item-title {
   font-size: 16px;
   margin: 10px 0 7px;
+  font-weight: 700;
 }
 .timeline-item p {
-  font-size: .92em;
+  font-size: 15px;
 }
 .timeline-item:after {
   content: '';
@@ -4856,19 +4866,20 @@ dl.accordion.time-line:before {
   margin-bottom: 30px;
 }
 .skills-info.skills-first-style h4 {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.1em;
   position: relative;
   float: left;
   margin: 0 0 4px;
 }
 .skills-first-style .skill-value {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.1em;
   position: relative;
   float: right;
   margin: 0 0 4px;
-  color: #888;
+  /* color: #888; */
+  font-weight: bold;
 }
 .skills-first-style .skill-container {
   position: relative;
@@ -4900,6 +4911,8 @@ dl.accordion.time-line:before {
   display: inline-block !important;
   /* width: 46%; */
   margin: 10px;
+  display: flex;
+  flex-flow: column wrap;
 }
 .profolioCls.pClass .single-testimonial{
   flex:0 0 46%;
@@ -4936,6 +4949,7 @@ dl.accordion.time-line:before {
     width:100% !important;
     margin: 0 0 20px 0 !important;
     margin-bottom: 20px;
+    flex: 0 0 100% !important;
   }
   .heading{
     font-size: 30px;
@@ -4952,6 +4966,10 @@ dl.accordion.time-line:before {
 
   }
   @media only screen and (max-width: 991px){
+    .navbar-nav > .active > a {
+      border-bottom:none !important;
+    }
+    
     .single-page-content {
       padding-left: 0;
       margin-left: 0;
@@ -5008,18 +5026,26 @@ dl.accordion.time-line:before {
 }
 
 .site-footer .footer-social-links li a {
-  color: #333;
+  color: #000;
   text-decoration: none;
   line-height: 21px;
   font-size: 13px;
-  opacity: .6;
+  opacity: .7;
+}
+.site-footer .footer-message{
+  color: #000;
+  text-decoration: none;
+  line-height: 21px;
+  font-size: 13px;
+  opacity: .7;
+  display: inline-block;
 }
 .footer-copyrights {
   float: right;
 }
-.footer-copyrights p {
+/* .footer-copyrights p {
   color: #aaa;
-}
+} */
 .footer-copyrights p {
   line-height: 21px;
   font-size: 13px;
@@ -5040,4 +5066,93 @@ dl.accordion.time-line:before {
 }
 .contact-height{
   height: calc(100vh - 315px);
+}
+.active-testimonial{
+  width:100%
+}
+.bio{
+  text-align: justify;
+}
+.text-title{
+  color:#222222 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 12px 0 12px 0 !important;
+}
+.heading{
+  font-weight: 700;
+}
+.coding-logo{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+
+}
+.main-menu{
+  padding:0px;
+}
+.navbar-light .navbar-toggler,.navbar-light .navbar-toggler:hover{
+  border: none;
+  background-color: transparent !important;
+}
+.navbar-nav > .active > a {
+  border-bottom: 2px solid #4b6cc1;
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998 !important;
+}
+.btn-tw {
+  color: #fff;
+  background-color: #55acee !important;
+}
+.btn-li {
+  color: #fff;
+  background-color: #0082ca !important;
+}
+footer.page-footer .footer-copyright,.footer-desc {
+  overflow: hidden;
+  color: rgba(255,255,255,0.6);
+  background-color: rgba(0,0,0,0.2);
+}
+.text-center {
+  text-align: center !important;
+}
+
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 47px;
+  height: 47px;
+}
+.btn-floating i {
+  display: inline-block;
+  width: inherit;
+  color: #fff;
+  text-align: center;
+}
+.btn-floating i {
+  font-size: 1.25rem;
+  line-height: 47px;
+}
+.special-color-dark{
+  background-color: #263238 !important;
+}
+@media(max-width:1200px){
+  .coding-logo{
+    width: 80px;
+    height: 80px;
+  }
 }
