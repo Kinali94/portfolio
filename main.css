@@ -4653,6 +4653,7 @@ dl.accordion.time-line:before {
   .service__icon{
     height: 120px;
     width:120px !important;
+    object-fit: contain;
   }
   .banner-left ,.banner-right {
     margin-top:50px;
@@ -5155,4 +5156,7 @@ footer.page-footer .footer-copyright,.footer-desc {
     width: 80px;
     height: 80px;
   }
+}
+.img-fluid{
+  object-fit: cover;
 }
