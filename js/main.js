@@ -450,6 +450,13 @@ $(document).ready(function () {
 
     $(document).ready(function () {
         $('#mc_embed_signup').find('form').ajaxChimp();
+
+        $(".navbar-collapse .nav-item a").click(function(){
+            if($(".navbar-collapse").hasClass("show")){
+                $(".navbar-collapse").removeClass("show");
+                $(".navbar-collapse").addClass("hide");
+            }
+        })
     });
 
 });

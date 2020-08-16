@@ -5158,5 +5158,5 @@ footer.page-footer .footer-copyright,.footer-desc {
   }
 }
 .img-fluid{
-  object-fit: cover;
+  object-fit: contain;
 }
