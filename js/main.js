@@ -464,7 +464,7 @@ function SetHeight() {
     var hvalue = 0;
     $(".timeline-item").each(function () {
         if ($(this).height() > hvalue) {
-            hvalue = $(this).height() + 65;
+            hvalue = $(this).height() + 55;
         }
     });
     $(".timeline-item").css("height", hvalue);
@@ -472,7 +472,7 @@ function SetHeight() {
     var height = 0;
     $(".card-about .service").each(function(){
         if ($(this).height() > height) {
-            height = $(this).height() + 40;
+            height = $(this).height() + 45;
         }
     })
     $(".card-about .service").css("height",height);

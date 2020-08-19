@@ -94,7 +94,8 @@ $black			: #222;
 body {
   color: #777777;
   /* font-family: "Poppins", sans-serif; */
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif" !important;
+  font-family: "Montserrat"!important;
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif" !important; */
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -161,7 +162,8 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+  font-family: "Montserrat"!important;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -173,7 +175,8 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+  font-family: "Montserrat"!important;
   font-weight: 600;
   color: #222222;
 }
@@ -2461,7 +2464,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-left h1 {
   margin: 20px 0;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 
@@ -4327,6 +4330,7 @@ dl.accordion.time-line:before {
   /* margin-bottom: 5px; */
   vertical-align: middle;
   display: inline;
+  line-height: 35px !important;
 }
 
 .contact-page-area .address-wrap .single-contact-address .lnr {
@@ -4527,6 +4531,7 @@ dl.accordion.time-line:before {
 }
 .card-text{
   text-align: justify;
+  font-size:14px;
 }
 .txt-center {
   text-align: center;
@@ -4549,7 +4554,8 @@ dl.accordion.time-line:before {
 .resumeBackgroundColor h3 {
   margin-bottom: 5%;
   font-size: 30px;
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+  font-family: "Montserrat"!important;
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -4582,7 +4588,8 @@ dl.accordion.time-line:before {
     text-align: center;
     padding-bottom: 10%;
     font-size: 30px;
-    font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+    /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+    font-family: "Montserrat"!important;
     font-weight: 500;
     opacity: .8;
 
@@ -4605,7 +4612,8 @@ dl.accordion.time-line:before {
 
 .skillsCard li {
   font-size: 20px;
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+  font-family: "Montserrat"!important;
   width: calc(33% - 20px);
   display: flex;
   -webkit-box-orient: vertical;
@@ -4691,7 +4699,8 @@ dl.accordion.time-line:before {
 .page-title .page-subtitle h4 {
   /* color: #aaaaaa; */
   font-size: 14px;
-  font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif";
+  /* font-family: "ProximaNova,Arial,Helvetica Neue,sans-serif"; */
+  font-family: "Montserrat"!important;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 0px;
@@ -4805,12 +4814,12 @@ dl.accordion.time-line:before {
   margin-left: 5px;
 }
 .timeline-item .item-title {
-  font-size: 16px;
+  font-size: 15px;
   margin: 10px 0 7px;
   font-weight: 700;
 }
 .timeline-item p {
-  font-size: 15px;
+  font-size: 13px;
 }
 .timeline-item:after {
   content: '';
@@ -4867,14 +4876,14 @@ dl.accordion.time-line:before {
   margin-bottom: 30px;
 }
 .skills-info.skills-first-style h4 {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.1em;
   position: relative;
   float: left;
   margin: 0 0 4px;
 }
 .skills-first-style .skill-value {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.1em;
   position: relative;
   float: right;
@@ -4914,6 +4923,9 @@ dl.accordion.time-line:before {
   margin: 10px;
   display: flex;
   flex-flow: column wrap;
+}
+.pClass .single-testimonial p{
+  font-size: 15px;
 }
 .profolioCls.pClass .single-testimonial{
   flex:0 0 46%;
@@ -5073,6 +5085,7 @@ dl.accordion.time-line:before {
 }
 .bio{
   text-align: justify;
+  font-size: 15px;
 }
 .text-title{
   color:#222222 !important;
