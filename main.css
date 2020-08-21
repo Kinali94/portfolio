@@ -2455,6 +2455,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* .banner-area .fullscreen {
   height: 750px !important;
 } */
+.banner-left{
+  margin-bottom: 20px;
+}
 
 .banner-left h6 {
   text-transform: uppercase;
